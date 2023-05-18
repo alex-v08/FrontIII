@@ -1,7 +1,8 @@
 
 import './App.css'
-import ClassComponets from './Components/ClassComponets'
-import FuncComponents from './Components/FuncComponents'
+
+import Navbar from './Components/Navbar'
+import Home from './Components/Home'
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
 
   return (
     <>
-      <FuncComponents props={"Juan"}/>
+      <Navbar/>
+      <Home/>
     </>
   )
 }
